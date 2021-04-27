@@ -2,8 +2,8 @@
 
 FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS build-env
 WORKDIR /app
-#EXPOSE 80
-#EXPOSE 443
+EXPOSE 9001
+EXPOSE 9000
 #
 #FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 #WORKDIR /src
